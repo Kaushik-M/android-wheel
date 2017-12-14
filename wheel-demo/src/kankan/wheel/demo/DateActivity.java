@@ -28,6 +28,8 @@ public class DateActivity extends Activity {
         final WheelView month = (WheelView) findViewById(R.id.month);
         final WheelView year = (WheelView) findViewById(R.id.year);
         final WheelView day = (WheelView) findViewById(R.id.day);
+
+//this is comment
         
         OnWheelChangedListener listener = new OnWheelChangedListener() {
             public void onChanged(WheelView wheel, int oldValue, int newValue) {
