@@ -31,6 +31,8 @@ public class SlotMachineActivity extends Activity {
         initWheel(R.id.slot_1);
         initWheel(R.id.slot_2);
         initWheel(R.id.slot_3);
+
+
         
         Button mix = (Button)findViewById(R.id.btn_mix);
         mix.setOnClickListener(new OnClickListener() {
