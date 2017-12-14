@@ -24,6 +24,7 @@ public class DateActivity extends Activity {
 
         Calendar calendar = Calendar.getInstance();
 
+
         final WheelView month = (WheelView) findViewById(R.id.month);
         final WheelView year = (WheelView) findViewById(R.id.year);
         final WheelView day = (WheelView) findViewById(R.id.day);
