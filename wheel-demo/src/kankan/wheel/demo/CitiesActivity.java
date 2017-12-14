@@ -25,6 +25,8 @@ public class CitiesActivity extends Activity {
         setContentView(R.layout.cities_layout);
 
 
+
+
                 
         final WheelView country = (WheelView) findViewById(R.id.country);
         country.setVisibleItems(3);
