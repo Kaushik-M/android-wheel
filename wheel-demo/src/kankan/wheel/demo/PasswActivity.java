@@ -23,7 +23,7 @@ public class PasswActivity extends Activity {
         initWheel(R.id.passw_2);
         initWheel(R.id.passw_3);
         initWheel(R.id.passw_4);
-        
+        //this is button
         Button mix = (Button)findViewById(R.id.btn_mix);
         mix.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
