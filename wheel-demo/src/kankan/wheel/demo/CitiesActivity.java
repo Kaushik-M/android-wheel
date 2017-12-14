@@ -23,6 +23,8 @@ public class CitiesActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.cities_layout);
+
+
                 
         final WheelView country = (WheelView) findViewById(R.id.country);
         country.setVisibleItems(3);
