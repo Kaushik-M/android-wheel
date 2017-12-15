@@ -55,6 +55,8 @@ public class WheelDemo extends ListActivity {
         }
         
         int len = list.size();
+
+//This is comment
         
         Map<String, Boolean> entries = new HashMap<String, Boolean>();
 
